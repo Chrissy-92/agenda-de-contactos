@@ -1,0 +1,79 @@
+@use "./core/reset";
+@use "./core/variables";
+
+.page main {
+  margin: 1rem;
+  font-size: var(--font-size);
+
+  @media (width > 780px) {
+    max-width: 40rem;
+    margin-inline: auto;
+  }
+}
+
+.page-lilacmode {
+  min-height: 100vh;
+  background-color: var(--background);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 50px;
+}
+
+.header__title {
+  width: 500px;
+  text-align: center;
+}
+
+.filter {
+  margin-bottom: 50px;
+}
+
+.filter__input {
+  background-color: lightgoldenrodyellow;
+  color: black;
+  padding: 0.025rem;
+  margin-block: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+  width: 30ch;
+  border: solid 3px purple;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+
+.lilacmode {
+  max-width: 900px;
+  background-color: antiquewhite;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.lilacmode .card {
+  width: 20rem;
+  background-color: var(--background-card);
+  border: solid 2px purple;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.photo__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.list__contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-inline: auto;
+  margin-block: 2rem;
+
+  list-style: none;
+}

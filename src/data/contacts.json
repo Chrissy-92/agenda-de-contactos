@@ -1,0 +1,129 @@
+[
+  {
+    "id": "1",
+    "name": "Ana",
+    "lastname": "López",
+    "phone": "600123123",
+    "email": "ana@example.com",
+    "city": "Madrid",
+    "image": "ana_lopez.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Emily",
+    "lastname": "Carter",
+    "phone": "612345678",
+    "email": "emily.carter@gmail.com",
+    "city": "New York",
+    "image": "emily_carter.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Sakura",
+    "lastname": "Takahashi",
+    "phone": "634256789",
+    "email": "sakura.takahashi@gmail.com",
+    "city": "Kyoto",
+    "image": "sakura_takahashi"
+  },
+  {
+    "id": "4",
+    "name": "Lillie",
+    "lastname": "Moore",
+    "phone": "632456789",
+    "email": "lillie@adalab.es",
+    "city": "Amsterdam",
+    "image": "lillie_moore.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Jane",
+    "lastname": "Norton",
+    "phone": "603256679",
+    "email": "janenorton@adalab.es",
+    "city": "California"
+  },
+   {
+    "id": "6",
+    "name": "Lucía",
+    "lastname": "Martínez",
+    "phone": "600987654",
+    "email": "lucia.martinez@gmail.com",
+    "city": "Barcelona",
+    "image": ""
+  },
+  {
+    "id": "7",
+    "name": "Olivia",
+    "lastname": "Smith",
+    "phone": "611223344",
+    "email": "olivia.smith@gmail.com",
+    "city": "London",
+    "image": ""
+  },
+  {
+    "id": "8",
+    "name": "Yuna",
+    "lastname": "Kim",
+    "phone": "625345678",
+    "email": "yuna.kim@gmail.com",
+    "city": "Seoul",
+    "image": ""
+  },
+  {
+    "id": "9",
+    "name": "Isabella",
+    "lastname": "Nguyen",
+    "phone": "622334455",
+    "email": "isabella.nguyen@gmail.com",
+    "city": "Melbourne",
+    "image": ""
+  },
+  {
+    "id": "10",
+    "name": "Hana",
+    "lastname": "Yamamoto",
+    "phone": "698123456",
+    "email": "hana.yamamoto@gmail.com",
+    "city": "Tokyo",
+    "image": ""
+  },
+  {
+    "id": "11",
+    "name": "Sofía",
+    "lastname": "Ruiz",
+    "phone": "643256789",
+    "email": "sofia.ruiz@gmail.com",
+    "city": "Sevilla",
+    "image": ""
+  },
+  {
+    "id": "12",
+    "name": "Charlotte",
+    "lastname": "Brown",
+    "phone": "677889900",
+    "email": "charlotte.brown@gmail.com",
+    "city": "Chicago",
+    "image": ""
+  },
+  {
+    "id": "13",
+    "name": "Minji",
+    "lastname": "Choi",
+    "phone": "656778899",
+    "email": "minji.choi@gmail.com",
+    "city": "Busan",
+    "image": ""
+  },
+  {
+    "id": "14",
+    "name": "Ada",
+    "lastname": "Lovelace",
+    "phone": "655432100",
+    "email": "ada.love@gmail.com",
+    "city": "Inglaterra",
+    "image": "ada_lovel.jpg"
+  }
+
+  
+]
