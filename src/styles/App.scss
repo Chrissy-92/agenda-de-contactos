@@ -47,6 +47,31 @@
   padding: 0.5rem;
 }
 
+.container__lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.header__subtitle01 {
+  grid-column: 1/1;
+}
+
+.header__subtitle02 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.allUsers {
+  grid-column: 1/1;
+  grid-row: 1/2;
+}
+
+.userFavorites {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
 .lilacmode {
   max-width: 900px;
   background-color: antiquewhite;

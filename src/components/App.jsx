@@ -83,22 +83,26 @@ function App() {
           handleInputFilterName={handleInputFilterName}
           filterName={filterName}
         />
-        <h2 className="header__subtitle">
-          Usuarios favoritos: {favoriteContacts.length}
-        </h2>
-        <UserList
-          contacts={filteredContacts}
-          favoriteContacts={favoriteContacts}
-          toggleFavorite={toggleFavorite}
-          showImage={false}
-        />
-        <h2 className="header__title">Favoritos ⭐</h2>
-        <UserList
-          contacts={favoriteContacts}
-          favoriteContacts={favoriteContacts}
-          toggleFavorite={toggleFavorite}
-          showImage={true}
-        />
+        <section className="container__lists">
+          <h2 className="header__subtitle01">
+            Usuarios favoritos: {favoriteContacts.length}
+          </h2>
+          <UserList
+            className="allUsers"
+            contacts={filteredContacts}
+            favoriteContacts={favoriteContacts}
+            toggleFavorite={toggleFavorite}
+            showImage={false}
+          />
+          <h2 className="header__subtitle02">Favoritos ⭐</h2>
+          <UserList
+            className="userFavorites"
+            contacts={favoriteContacts}
+            favoriteContacts={favoriteContacts}
+            toggleFavorite={toggleFavorite}
+            showImage={true}
+          />
+        </section>
       </main>
     </div>
   );
