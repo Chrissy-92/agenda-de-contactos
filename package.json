@@ -1,7 +1,10 @@
 {
-  "name": "react-starter-kit",
+  "name": "agenda-de-contactos",
   "private": true,
   "version": "0.0.0",
+  "description": "Pequeño ejercicio para practicar listado de componentes en React.",
+  "author": "Cristina Angélica Pérez Huerta",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
