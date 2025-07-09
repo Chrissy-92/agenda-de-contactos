@@ -73,9 +73,9 @@ function App() {
   };
 
   return (
-    <div className="page-lilacmode">
+    <div className="main__page">
       <header className="header">
-        <h1 className="header__title"> Mi agenda de contactos </h1>
+        <h1 className="header__title"> Mis contactos </h1>
       </header>
       <main>
         <InputSearch

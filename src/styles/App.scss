@@ -11,7 +11,7 @@
   }
 }
 
-.page-lilacmode {
+.main__page {
   min-height: 100vh;
   background-color: var(--background);
   padding: 1.5rem;
@@ -22,12 +22,14 @@
 }
 
 .header {
-  margin: 50px;
+  display: inline-block;
+  background-color: var(--background__header);
 }
 
 .header__title {
   width: 500px;
   text-align: center;
+  color: white;
 }
 
 .filter {
@@ -35,14 +37,14 @@
 }
 
 .filter__input {
-  background-color: lightgoldenrodyellow;
+  background-color: white;
   color: black;
   padding: 0.025rem;
   margin-block: 0.5rem;
   font-size: 20px;
   font-weight: 500;
   width: 30ch;
-  border: solid 3px purple;
+  border: solid 3px var(--borders);
   border-radius: 15px;
   padding: 0.5rem;
 }
@@ -55,11 +57,15 @@
 
 .header__subtitle01 {
   grid-column: 1/1;
+  color: white;
+  text-align: center;
 }
 
 .header__subtitle02 {
   grid-column: 2/3;
   grid-row: 1/2;
+  color: white;
+  text-align: center;
 }
 
 .allUsers {
@@ -74,7 +80,7 @@
 
 .lilacmode {
   max-width: 900px;
-  background-color: antiquewhite;
+  background-color: var(--background-list);
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
@@ -82,7 +88,7 @@
 .lilacmode .card {
   width: 20rem;
   background-color: var(--background-card);
-  border: solid 2px purple;
+  border: solid 2px var(--borders);
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
