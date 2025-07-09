@@ -32,15 +32,13 @@ function App() {
     setFilterName(ev.target.value);
   };
 
+  const searchTerm = filterName.trim().toLowerCase();
+
   // Filtramos lo que introduzca el usuario en el input y guardamos el valor en la variable filteredContact, selecciona y muestra coincidencias tanto para el nombre como para el apellido.
   const filteredContacts = contacts.filter(
     (eachContact) =>
-      eachContact.name
-        .toLocaleLowerCase()
-        .includes(filterName.toLocaleLowerCase()) ||
-      eachContact.lastname
-        .toLocaleLowerCase()
-        .includes(filterName.toLocaleLowerCase())
+      eachContact.name.trim().toLowerCase().includes(searchTerm) ||
+      eachContact.lastname.trim().toLowerCase().includes(searchTerm)
   );
 
   // Función que previene la recarga de la página desde el input
@@ -77,7 +75,7 @@ function App() {
       <header className="header">
         <h1 className="header__title"> Mis contactos </h1>
       </header>
-      <main>
+      <main className="main">
         <InputSearch
           handleSubmit={handleSubmit}
           handleInputFilterName={handleInputFilterName}

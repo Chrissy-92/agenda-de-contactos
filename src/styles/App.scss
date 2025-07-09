@@ -14,7 +14,8 @@
 .main__page {
   min-height: 100vh;
   background-color: var(--background);
-  padding: 1.5rem;
+  padding: 2rem;
+  padding-top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,18 +23,27 @@
 }
 
 .header {
-  display: inline-block;
+  position: relative;
+  padding: 1em;
   background-color: var(--background__header);
+  margin-bottom: 3em;
 }
 
 .header__title {
-  width: 500px;
+  font-weight: 600;
+  font-size: 40px;
+  width: 100vw;
   text-align: center;
   color: white;
 }
 
+.main {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
 .filter {
-  margin-bottom: 50px;
+  margin-bottom: 5em;
 }
 
 .filter__input {
@@ -82,7 +92,7 @@
   max-width: 900px;
   background-color: var(--background-list);
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 
 .lilacmode .card {
